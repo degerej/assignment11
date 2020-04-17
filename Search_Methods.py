@@ -2,8 +2,6 @@
 # 4/16/2020
 # Assignment 11
 
-# Bubble Sort
-
 
 def bubble_sort(arr):
     def swap(i, j):
@@ -50,8 +48,6 @@ def insertion_sort(arr):
 
     return arr
 
-# Merge Sort
-
 
 def merge_sort(arr):
     if len(arr) <= 1:
@@ -79,7 +75,6 @@ def merge(left, right, merged):
     return merged
 
 
-# Quick Sort
 
 
 def partition(array, begin, end):
